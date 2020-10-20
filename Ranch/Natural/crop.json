@@ -1,0 +1,298 @@
+[
+  {
+    "name": "芜菁",
+    "price": 50,
+    "sell": 110,
+    "day": 5,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "土豆",
+    "price": 90,
+    "sell": 210,
+    "day": 8,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "玛格丽特",
+    "price": 70,
+    "sell": 170,
+    "day": 7,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "卷心菜",
+    "price": 170,
+    "sell": 410,
+    "day": 13,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "黄瓜",
+    "price": 150,
+    "sell": 120,
+    "day": 9,
+    "repeat": true,
+    "season": 0
+  },
+  {
+    "name": "草莓",
+    "price": 290,
+    "sell": 240,
+    "day": 15,
+    "repeat": true,
+    "season": 0
+  },
+  {
+    "name": "花椰菜",
+    "price": 150,
+    "sell": 360,
+    "day": 12,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "豌豆",
+    "price": 150,
+    "sell": 360,
+    "day": 12,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "风铃草",
+    "price": 130,
+    "sell": 320,
+    "day": 11,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "康乃馨",
+    "price": 150,
+    "sell": 360,
+    "day": 21,
+    "repeat": false,
+    "season": 0
+  },
+  {
+    "name": "玉米",
+    "price": 270,
+    "sell": 220,
+    "day": 14,
+    "repeat": true,
+    "season": 1
+  },
+  {
+    "name": "番茄",
+    "price": 110,
+    "sell": 0,
+    "day": 14,
+    "repeat": true,
+    "season": 1
+  },
+  {
+    "name": "向日葵",
+    "price": 80,
+    "sell": 360,
+    "day": 12,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "洋葱",
+    "price": 60,
+    "sell": 140,
+    "day": 6,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "南瓜",
+    "price": 40,
+    "sell": 90,
+    "day": 4,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "西瓜",
+    "price": 70,
+    "sell": 170,
+    "day": 7,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "哈密瓜",
+    "price": 270,
+    "sell": 660,
+    "day": 18,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "菠萝",
+    "price": 200,
+    "sell": 250,
+    "day": 13,
+    "repeat": true,
+    "season": 1
+  },
+  {
+    "name": "辣椒",
+    "price": 160,
+    "sell": 130,
+    "day": 13,
+    "repeat": true,
+    "season": 1
+  },
+  {
+    "name": "牵牛花",
+    "price": 70,
+    "sell": 170,
+    "day": 7,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "百合",
+    "price": 130,
+    "sell": 320,
+    "day": 11,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "朱槿",
+    "price": 130,
+    "sell": 320,
+    "day": 11,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "红玫瑰",
+    "price": 100,
+    "sell": 240,
+    "day": 9,
+    "repeat": false,
+    "season": 1
+  },
+  {
+    "name": "胡萝卜",
+    "price": 150,
+    "sell": 360,
+    "day": 12,
+    "repeat": false,
+    "season": 2
+  },
+  {
+    "name": "地瓜",
+    "price": 80,
+    "sell": 60,
+    "day": 5,
+    "repeat": true,
+    "season": 2
+  },
+  {
+    "name": "抚子花",
+    "price": 90,
+    "sell": 210,
+    "day": 8,
+    "repeat": false,
+    "season": 2
+  },
+  {
+    "name": "牛蒡",
+    "price": 100,
+    "sell": 240,
+    "day": 9,
+    "repeat": false,
+    "season": 2
+  },
+  {
+    "name": "菠菜",
+    "price": 50,
+    "sell": 110,
+    "day": 5,
+    "repeat": false,
+    "season": 2
+  },
+  {
+    "name": "茄子",
+    "price": 130,
+    "sell": 320,
+    "day": 11,
+    "repeat": false,
+    "season": 2
+  },
+  {
+    "name": "青椒",
+    "price": 170,
+    "sell": 140,
+    "day": 12,
+    "repeat": true,
+    "season": 2
+  },
+  {
+    "name": "雏菊",
+    "price": 170,
+    "sell": 140,
+    "day": 12,
+    "repeat": true,
+    "season": 2
+  },
+  {
+    "name": "白萝卜",
+    "price": 40,
+    "sell": 90,
+    "day": 4,
+    "repeat": false,
+    "season": 3
+  },
+  {
+    "name": "雪花莲",
+    "price": 40,
+    "sell": 90,
+    "day": 9,
+    "repeat": false,
+    "season": 3
+  },
+  {
+    "name": "白菜",
+    "price": 40,
+    "sell": 360,
+    "day": 4,
+    "repeat": false,
+    "season": 3
+  },
+  {
+    "name": "西兰花",
+    "price": 100,
+    "sell": 90,
+    "day": 8,
+    "repeat": true,
+    "season": 3
+  },
+  {
+    "name": "牧草",
+    "price": 60,
+    "sell": 10,
+    "day": 10,
+    "repeat": true,
+    "season": 4
+  },
+  {
+    "name": "小麦",
+    "price": 100,
+    "sell": 50,
+    "day": 15,
+    "repeat": true,
+    "season": 4
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "name": "蒲公英",
+    "price": 30,
+    "season": 0,
+    "position": [
+      "哗啦河",
+      "樵之森",
+      "滴答湖"
+    ]
+  },
+  {
+    "name": "问荆草",
+    "price": 30,
+    "season": 0,
+    "position": [
+      "冷飚飚山",
+      "哗哗瀑布"
+    ]
+  },
+  {
+    "name": "笋子",
+    "price": 30,
+    "season": 0,
+    "position": [
+      "牧场",
+      "冷飚飚山",
+      "哗啦河",
+      "滚滚森林",
+      "樵之森",
+      "滴答湖",
+      "哗哗瀑布"
+    ]
+  },
+  {
+    "name": "紫萁",
+    "price": 60,
+    "season": 0,
+    "position": [
+      "冷飚飚山",
+      "滴答湖",
+      "哗哗瀑布"
+    ]
+  },
+  {
+    "name": "香菇",
+    "price": 30,
+    "season": 0,
+    "position": [
+      "冷飚飚山",
+      "哗哗瀑布"
+    ]
+  },
+  {
+    "name": "艾草",
+    "price": 60,
+    "season": 0,
+    "position": [
+      "哗啦河",
+      "滚滚森林",
+      "樵之森",
+      "滴答湖"
+    ]
+  },
+  {
+    "name": "枇杷",
+    "info": "2天结果",
+    "price": 120,
+    "season": 0,
+    "position": [
+      "冷飚飚山"
+    ]
+  },
+  {
+    "name": "梅子",
+    "price": 60,
+    "season": 0,
+    "position": [
+      "涛涛海岬"
+    ]
+  },
+  {
+    "name": "绣花球",
+    "price": 60,
+    "season": 1,
+    "position": [
+      "滚滚森林",
+      "滚滚森林池",
+      "万物镇西"
+    ]
+  },
+  {
+    "name": "菖蒲",
+    "price": 30,
+    "season": 1,
+    "position": [
+      "滚滚森林",
+      "滚滚森林池",
+      "万物镇西"
+    ]
+  },
+  {
+    "name": "芦荟",
+    "price": 30,
+    "season": 1,
+    "position": [
+      "涛涛海岬",
+      "涛涛海滨"
+    ]
+  },
+  {
+    "name": "姜",
+    "price": 60,
+    "season": 1,
+    "position": [
+      "牧场",
+      "冷飚飚山",
+      "哗哗瀑布",
+      "万物镇东"
+    ]
+  },
+  {
+    "name": "蜂窝",
+    "price": 30,
+    "season": 1,
+    "position": [
+      "牧场"
+    ]
+  },
+  {
+    "name": "杏子",
+    "info": "3天结果",
+    "price": 30,
+    "season": 1,
+    "position": [
+      "哗哗瀑布"
+    ]
+  },
+  {
+    "name": "杏仁",
+    "info": "3天结果",
+    "price": 30,
+    "season": 1,
+    "position": [
+      "哗啦河",
+      "滚滚森林"
+    ]
+  },
+  {
+    "name": "松茸",
+    "price": 1200,
+    "season": 2,
+    "position": [
+      "哗啦河",
+      "滚滚森林池"
+    ]
+  },
+  {
+    "name": "滑菇",
+    "price": 30,
+    "season": 2,
+    "position": [
+      "滚滚森林",
+      "樵之森",
+      "滴答湖"
+    ]
+  },
+  {
+    "name": "木耳",
+    "price": 30,
+    "season": 2,
+    "position": [
+      "滚滚森林",
+      "樵之森",
+      "滴答湖"
+    ]
+  },
+  {
+    "name": "舞菇",
+    "price": 30,
+    "season": 2,
+    "position": [
+      "滚滚森林"
+    ]
+  },
+  {
+    "name": "栗子",
+    "info": "5天结果",
+    "price": 120,
+    "season": 2,
+    "position": [
+      "滚滚森林"
+    ]
+  },
+  {
+    "name": "胡桃",
+    "info": "3天结果",
+    "price": 60,
+    "season": 2,
+    "position": [
+      "滴答湖"
+    ]
+  },
+  {
+    "name": "苹果",
+    "info": "2天结果",
+    "price": 60,
+    "season": 2,
+    "position": [
+      "樵之森"
+    ]
+  },
+  {
+    "name": "荠菜",
+    "price": 60,
+    "season": 3,
+    "position": [
+      "牧场",
+      "哗啦河",
+      "滚滚森林",
+      "樵之森",
+      "滴答湖"
+    ]
+  },
+  {
+    "name": "虎耳草",
+    "price": 120,
+    "season": 3,
+    "position": [
+      "哗哗瀑布",
+      "万物镇东"
+    ]
+  },
+  {
+    "name": "松露",
+    "price": 1200,
+    "season": 3,
+    "position": [
+      "冷飚飚山"
+    ]
+  },
+  {
+    "name": "蜜桔",
+    "price": 60,
+    "season": 3,
+    "position": [
+      "樵之森"
+    ]
+  },
+  {
+    "name": "贝壳",
+    "price": 30,
+    "season": 4,
+    "position": [
+      "涛涛海岬",
+      "涛涛海滨"
+    ]
+  },
+  {
+    "name": "珊瑚",
+    "price": 20,
+    "season": 4,
+    "position": [
+      "涛涛海岬",
+      "涛涛海滨"
+    ]
+  },
+  {
+    "name": "条纹鬃螺",
+    "price": 30,
+    "season": 4,
+    "position": [
+      "涛涛海岬",
+      "涛涛海滨"
+    ]
+  },
+  {
+    "name": "明亮樱蛤",
+    "price": 30,
+    "season": 4,
+    "position": [
+      "涛涛海岬",
+      "涛涛海滨"
+    ]
+  }
+]
