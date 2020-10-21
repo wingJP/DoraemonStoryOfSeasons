@@ -17,14 +17,6 @@ struct NaturalModel: Decodable, NaturalModelProtocol, BaseModel {
     var season : Int
     
     var position : [String]
-    
-    var isGift : Bool {
-        return RodesManage.likeSet.contains(name)
-    }
-    
-    var canCook : Bool {
-        return MenuManage.cookSet.contains(name)
-    }
 }
 
 struct NaturalManage {

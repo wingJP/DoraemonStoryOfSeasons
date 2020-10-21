@@ -11,11 +11,6 @@ class NaturalViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var layout: UICollectionViewFlowLayout!
     
-    enum NaturalType :Int{
-        case natural
-        case crop
-    }
-    
     
     @IBAction func typeChange(_ sender: UISegmentedControl) {
         if let type = NaturalType(rawValue: sender.selectedSegmentIndex) {
@@ -26,13 +21,11 @@ class NaturalViewController: UIViewController {
     
     var type : NaturalType = .natural {
         didSet {
-            print(type)
-            loadBaseArray()
             loadData()
         }
     }
     
-    var baseArray : [NaturalModelProtocol]! = []
+    let viewModel = NaturalViewModel()
     var dataArray : [NaturalModelProtocol]! = []
     let seasonList = ["全部","春季","夏季","秋季","冬季","四季"]
     
@@ -42,20 +35,11 @@ class NaturalViewController: UIViewController {
         }
     }
     
-    func loadBaseArray() {
-        switch type {
-        case .natural: baseArray = (getList(NaturalModel.self) as! [NaturalModelProtocol])
-        case .crop: baseArray = (getList(CropModel.self) as! [NaturalModelProtocol])
-        default: baseArray = (getList(CropModel.self) as! [NaturalModelProtocol])
-        }
-        
-    }
-    
     func loadData() {
         if seasonSelected == 0 {
-            dataArray = baseArray
+            dataArray = viewModel.getList(withType: type)
         }else {
-            dataArray = baseArray.filter({ (natura) -> Bool in
+            dataArray = viewModel.getList(withType: type).filter({ (natura) -> Bool in
                 return natura.season == seasonSelected - 1
             })
         }
@@ -65,7 +49,7 @@ class NaturalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadBaseArray()
+        loadData()
         // Do any additional setup after loading the view.
     }
     

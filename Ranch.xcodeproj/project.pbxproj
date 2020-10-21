@@ -27,6 +27,7 @@
 		52D8DB9A253B1B940041824D /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8DB99253B1B940041824D /* CookViewController.swift */; };
 		52D8DB9F253B1BE20041824D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8DB9E253B1BE20041824D /* Menu.swift */; };
 		52D8DBA4253B20510041824D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 52D8DBA3253B20510041824D /* menu.json */; };
+		C5073549253FD23D00357C35 /* NaturalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5073548253FD23D00357C35 /* NaturalViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		52D8DB99253B1B940041824D /* CookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
 		52D8DB9E253B1BE20041824D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		52D8DBA3253B20510041824D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		C5073548253FD23D00357C35 /* NaturalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				52D8DB86253A92250041824D /* NaturalViewController.swift */,
 				52D8DB93253A95AD0041824D /* NaturalModel.swift */,
 				52057F18253F2D8E00FC8C7C /* CorpModel.swift */,
+				C5073548253FD23D00357C35 /* NaturalViewModel.swift */,
 			);
 			path = Natural;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				52B668A825349FB500C5CA4D /* AppDelegate.swift in Sources */,
 				52D8DB7C2539E9300041824D /* RolesModel.swift in Sources */,
 				52D8DB94253A95AD0041824D /* NaturalModel.swift in Sources */,
+				C5073549253FD23D00357C35 /* NaturalViewModel.swift in Sources */,
 				52D8DB9F253B1BE20041824D /* Menu.swift in Sources */,
 				52D8DB9A253B1B940041824D /* CookViewController.swift in Sources */,
 				52B668AA25349FB500C5CA4D /* SceneDelegate.swift in Sources */,
