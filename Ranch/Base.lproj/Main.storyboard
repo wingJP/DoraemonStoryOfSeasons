@@ -543,7 +543,6 @@
                                             <outlet property="nameLabel" destination="QM2-HB-17o" id="xqw-8s-o8N"/>
                                             <outlet property="priceLabel" destination="HgQ-Vy-TEd" id="MXp-pz-sKo"/>
                                             <outlet property="sellLabel" destination="Rez-zR-klr" id="LoN-Gb-lsO"/>
-                                            <outlet property="stackView" destination="A5u-5E-Oef" id="pDo-ol-w67"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

@@ -21,12 +21,15 @@ protocol NaturalModelProtocol {
 }
 
 
-func getList<T>() -> [T] where T : Decodable, T: BaseModel {
+func getList<T>(_ type: T.Type) -> [T] where T : Decodable, T: BaseModel {
+    print(T.self.fileKey)
     if let path = Bundle.main.url(forResource: T.self.fileKey, withExtension: "json") {
         do {
             let data = try Data(contentsOf: path)
             let decoder = JSONDecoder()
+            print(T.self.fileKey + " load  \(data.count)")
             let jsonData = try decoder.decode([T].self, from: data)
+            print(T.self.fileKey + " decode")
             return jsonData
         } catch {
             return [T]()
@@ -40,9 +43,13 @@ func getList<T>() -> [T] where T : Decodable, T: BaseModel {
 struct CropModel: Decodable, BaseModel, NaturalModelProtocol {
     var season: Int
     
-    var isGift: Bool
+    var isGift : Bool {
+        return RodesManage.likeSet.contains(name)
+    }
     
-    var canCook: Bool
+    var canCook : Bool {
+        return MenuManage.cookSet.contains(name)
+    }
     
     static var fileKey: String { "crop" }
     
@@ -53,6 +60,8 @@ struct CropModel: Decodable, BaseModel, NaturalModelProtocol {
     var sell : Int
     
     var day : Int
+    
+    var `repeat` = false
     
 }
 

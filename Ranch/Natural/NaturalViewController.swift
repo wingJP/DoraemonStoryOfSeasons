@@ -26,13 +26,14 @@ class NaturalViewController: UIViewController {
     
     var type : NaturalType = .natural {
         didSet {
+            print(type)
             loadBaseArray()
             loadData()
         }
     }
     
-    var baseArray : [NaturalModelProtocol]!
-    var dataArray : [NaturalModelProtocol]!
+    var baseArray : [NaturalModelProtocol]! = []
+    var dataArray : [NaturalModelProtocol]! = []
     let seasonList = ["全部","春季","夏季","秋季","冬季","四季"]
     
     var seasonSelected = 0 {
@@ -43,9 +44,9 @@ class NaturalViewController: UIViewController {
     
     func loadBaseArray() {
         switch type {
-        case .natural: baseArray = (getList<NaturalModel>() as! [NaturalModelProtocol])
-        case .crop: baseArray = (getList<CropModel>() as! [NaturalModelProtocol])
-        default: baseArray = (getList<NaturalModel>() as! [NaturalModelProtocol])
+        case .natural: baseArray = (getList(NaturalModel.self) as! [NaturalModelProtocol])
+        case .crop: baseArray = (getList(CropModel.self) as! [NaturalModelProtocol])
+        default: baseArray = (getList(CropModel.self) as! [NaturalModelProtocol])
         }
         
     }
@@ -64,7 +65,7 @@ class NaturalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        loadBaseArray()
         // Do any additional setup after loading the view.
     }
     
@@ -115,11 +116,11 @@ extension NaturalViewController:  UICollectionViewDelegate, UICollectionViewData
             cell.model = model
             return cell
         }else if let model = dataArray[indexPath.row] as? CropModel {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CorpCell", for: indexPath) as! CropCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CropCell", for: indexPath) as! CropCell
             cell.model = model
             return cell
         }else{
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CorpCell", for: indexPath) as! CropCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CropCell", for: indexPath) as! CropCell
             return cell
         }
     }
