@@ -23,6 +23,8 @@ struct CropModel: Decodable, BaseModel, NaturalModelProtocol {
     
     var `repeat` = false
     
+    var firstYear : Bool? = true
+    
 }
 
 class CropCell : UICollectionViewCell {
@@ -37,7 +39,9 @@ class CropCell : UICollectionViewCell {
     @IBOutlet weak var giftIcon: UIImageView!
     @IBOutlet weak var cookIcon: UIImageView!
     
+    @IBOutlet weak var reButton: UIButton!
     
+    @IBOutlet weak var yearButton: UIView!
     var model : CropModel? {
         didSet {
             guard let model = model else {
@@ -47,12 +51,16 @@ class CropCell : UICollectionViewCell {
             giftIcon.isHidden = !model.isGift
             cookIcon.isHidden = !model.canCook
             priceLabel.text = String(model.price)
-            dayLabel.text = String(model.day) + "天"
+            dayLabel.text = String(model.day) + " 天"
             sellLabel.text = String(model.sell)
+            
+            reButton.isHidden = model.repeat
+            yearButton.isHidden = model.firstYear ?? false
         }
     }
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.layer.cornerRadius = 20
+//        self.reButton?.layer.cornerRadius = 2
     }
 }

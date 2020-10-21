@@ -1,6 +1,7 @@
 [
   {
     "name": "芜菁",
+    "firstYear": true,
     "price": 50,
     "sell": 110,
     "day": 5,
@@ -9,6 +10,7 @@
   },
   {
     "name": "土豆",
+    "firstYear": true,
     "price": 90,
     "sell": 210,
     "day": 8,
@@ -17,6 +19,7 @@
   },
   {
     "name": "玛格丽特",
+    "firstYear": true,
     "price": 70,
     "sell": 170,
     "day": 7,
@@ -81,6 +84,7 @@
   },
   {
     "name": "玉米",
+    "firstYear": true,
     "price": 270,
     "sell": 220,
     "day": 14,
@@ -89,6 +93,7 @@
   },
   {
     "name": "番茄",
+    "firstYear": true,
     "price": 110,
     "sell": 0,
     "day": 14,
@@ -97,6 +102,7 @@
   },
   {
     "name": "向日葵",
+    "firstYear": true,
     "price": 80,
     "sell": 360,
     "day": 12,
@@ -185,6 +191,7 @@
   },
   {
     "name": "胡萝卜",
+    "firstYear": true,
     "price": 150,
     "sell": 360,
     "day": 12,
@@ -193,6 +200,7 @@
   },
   {
     "name": "地瓜",
+    "firstYear": true,
     "price": 80,
     "sell": 60,
     "day": 5,
@@ -201,6 +209,7 @@
   },
   {
     "name": "抚子花",
+    "firstYear": true,
     "price": 90,
     "sell": 210,
     "day": 8,
@@ -249,6 +258,7 @@
   },
   {
     "name": "白萝卜",
+    "firstYear": true,
     "price": 40,
     "sell": 90,
     "day": 4,
@@ -257,6 +267,7 @@
   },
   {
     "name": "雪花莲",
+    "firstYear": true,
     "price": 40,
     "sell": 90,
     "day": 9,
@@ -281,6 +292,7 @@
   },
   {
     "name": "牧草",
+    "firstYear": true,
     "price": 60,
     "sell": 10,
     "day": 10,
@@ -289,6 +301,7 @@
   },
   {
     "name": "小麦",
+    "firstYear": true,
     "price": 100,
     "sell": 50,
     "day": 15,
