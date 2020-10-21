@@ -23,14 +23,14 @@ class RootTabBarController: UITabBarController {
             vc.search(withGift: gift)
         }
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func findMenu(withfood food: String) {
+        if let nvc = self.viewControllers![3] as? UINavigationController,
+           let vc = nvc.viewControllers.first as? CookViewController {
+            self.selectedIndex = 3
+            vc.search(withFood: food)
+        }
     }
-    */
+
 
 }

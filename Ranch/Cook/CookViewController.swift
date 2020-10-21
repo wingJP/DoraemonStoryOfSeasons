@@ -37,6 +37,11 @@ class CookViewController: UIViewController {
 //        super.touchesBegan(touches, with: event)
         textField.resignFirstResponder()
     }
+    
+    open func search(withFood food: String) {
+        menuList = MenuManage.list.filter({ $0.food.filter({$0 == food}).count > 0 })
+        collectionView?.reloadData()
+    }
 
     
     override func viewDidLoad() {

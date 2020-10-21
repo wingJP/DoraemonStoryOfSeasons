@@ -110,9 +110,24 @@ extension NaturalViewController:  UICollectionViewDelegate, UICollectionViewData
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
+        guard let vc = self.tabBarController as? RootTabBarController  else {
+            return
+        }
         let model = dataArray[indexPath.row]
-        if model.isGift ,let vc = self.tabBarController as? RootTabBarController {
+        if model.canCook && model.isGift {
+            let ac = UIAlertController(title: "跳转", message: nil, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "查询送礼角色", style: .default, handler: { (_) in
+                vc.findRole(withGift: model.name)
+            }))
+            ac.addAction(UIAlertAction(title: "查询菜谱", style: .default, handler: { (_) in
+                vc.findMenu(withfood: model.name)
+            }))
+            ac.addAction(UIAlertAction(title: "取消", style: .default, handler: { (_) in }))
+            present(ac, animated: true)
+        }else if model.isGift {
             vc.findRole(withGift: model.name)
+        }else if model.canCook {
+            vc.findMenu(withfood: model.name)
         }
     }
 }
