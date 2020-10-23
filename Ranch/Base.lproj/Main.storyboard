@@ -620,7 +620,7 @@
                     <navigationItem key="navigationItem" id="BYl-va-ymE">
                         <nil key="title"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bar" selectedSegmentIndex="0" id="URX-NM-hlb">
-                            <rect key="frame" x="371.5" y="8.5" width="91" height="33"/>
+                            <rect key="frame" x="316.5" y="8.5" width="201" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="采集" width="100"/>
@@ -796,6 +796,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="料理" id="etX-j5-BgW">
+                        <barButtonItem key="leftBarButtonItem" title="替换" id="M4E-TM-h3j">
+                            <connections>
+                                <segue destination="wCM-QS-piK" kind="presentation" id="eHU-GZ-xxG"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="pJR-fZ-IoW">
                             <textField key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="搜索" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" id="kXA-7T-AST">
                                 <rect key="frame" x="629" y="8" width="185" height="34"/>
@@ -818,6 +823,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbW-OK-UXp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1631.6546762589928" y="1812.9496402877699"/>
+        </scene>
+        <!--食材替换-->
+        <scene sceneID="Dq3-kK-EHb">
+            <objects>
+                <viewController id="Blm-81-jU9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZHz-B3-l5o">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wS1-eE-L1p">
+                                <rect key="frame" x="20" y="76" width="664" height="142.5"/>
+                                <string key="text">水果类：哈密瓜，凤梨，草莓，西瓜，梅子，枇杷，苹果，蜜柑，杏子
+土豆类：马铃薯，地瓜
+根菜类：胡萝卜，牛蒡，芜菁，白萝卜
+叶子类：高丽菜，白菜，菠菜
+山菜类：荀子，问荆草
+花蕾类：白花椰菜，花椰菜
+田间蔬菜：茄子，番茄，洋葱，青椒，天骄，黄瓜，南瓜</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vqh-08-VR2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wS1-eE-L1p" firstAttribute="leading" secondItem="Vqh-08-VR2" secondAttribute="leading" constant="20" id="B1E-8C-ELJ"/>
+                            <constraint firstItem="Vqh-08-VR2" firstAttribute="trailing" secondItem="wS1-eE-L1p" secondAttribute="trailing" constant="20" id="Kqd-I0-MiU"/>
+                            <constraint firstItem="wS1-eE-L1p" firstAttribute="top" secondItem="Vqh-08-VR2" secondAttribute="top" constant="20" id="ogf-8F-kej"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="食材替换" id="Heu-Iz-xKe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UMn-Cp-18O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3107.1942446043167" y="1812.9496402877699"/>
         </scene>
         <!--角色-->
         <scene sceneID="DXu-Fa-fsO">
@@ -875,6 +916,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Md-J7-z18" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="878" y="1813"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oJS-eJ-aWg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wCM-QS-piK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sl3-ma-IXg">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Blm-81-jU9" kind="relationship" relationship="rootViewController" id="51t-eb-glM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j5s-2w-MI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2354.6762589928057" y="1812.9496402877699"/>
         </scene>
     </scenes>
     <resources>
