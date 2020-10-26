@@ -259,7 +259,7 @@
   {
     "name": "白萝卜",
     "firstYear": true,
-    "price": 40,
+    "price": 20,
     "sell": 90,
     "day": 4,
     "repeat": false,
@@ -268,8 +268,8 @@
   {
     "name": "雪花莲",
     "firstYear": true,
-    "price": 40,
-    "sell": 90,
+    "price": 50,
+    "sell": 240,
     "day": 9,
     "repeat": false,
     "season": 3
