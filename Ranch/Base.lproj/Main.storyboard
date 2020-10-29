@@ -198,6 +198,7 @@
                         <segue destination="0nd-GV-lcY" kind="relationship" relationship="viewControllers" id="sUo-zh-dea"/>
                         <segue destination="zkS-8S-iiK" kind="relationship" relationship="viewControllers" id="00G-xh-pbb"/>
                         <segue destination="Wk3-Ic-Snt" kind="relationship" relationship="viewControllers" id="tbK-fj-VFV"/>
+                        <segue destination="FgQ-Vs-PrS" kind="relationship" relationship="viewControllers" id="1yw-Eh-Rsz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WH6-x7-IYz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -619,7 +620,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="BYl-va-ymE">
                         <nil key="title"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bar" selectedSegmentIndex="0" id="URX-NM-hlb">
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bar" selectedSegmentIndex="0" id="URX-NM-hlb">
                             <rect key="frame" x="316.5" y="8.5" width="201" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
@@ -838,7 +839,7 @@
 土豆类：马铃薯，地瓜
 根菜类：胡萝卜，牛蒡，芜菁，白萝卜
 叶子类：高丽菜，白菜，菠菜
-山菜类：荀子，问荆草
+山菜类：笋子，问荆草
 花蕾类：白花椰菜，花椰菜
 田间蔬菜：茄子，番茄，洋葱，青椒，天骄，黄瓜，南瓜</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -934,6 +935,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j5s-2w-MI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2354.6762589928057" y="1812.9496402877699"/>
+        </scene>
+        <!--挖矿-->
+        <scene sceneID="fUL-PK-jzC">
+            <objects>
+                <viewController id="FgQ-Vs-PrS" customClass="MineralViewController" customModule="Ranch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K0p-9T-XQT">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lDt-IU-mt1">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                                <items>
+                                    <navigationItem title="挖矿" id="MJc-eO-KS1">
+                                        <barButtonItem key="rightBarButtonItem" title="重置" id="Ytf-lD-glC">
+                                            <connections>
+                                                <action selector="resetAction:" destination="FgQ-Vs-PrS" id="wgQ-cP-S0E"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="efq-tc-qYR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lDt-IU-mt1" firstAttribute="trailing" secondItem="efq-tc-qYR" secondAttribute="trailing" id="3aA-7f-6vu"/>
+                            <constraint firstItem="lDt-IU-mt1" firstAttribute="leading" secondItem="efq-tc-qYR" secondAttribute="leading" id="F64-OR-nFp"/>
+                            <constraint firstItem="lDt-IU-mt1" firstAttribute="top" secondItem="efq-tc-qYR" secondAttribute="top" id="RbP-6I-dUW"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="挖矿" id="XdI-Pm-JTM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uML-o0-oeU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-69" y="1888"/>
         </scene>
     </scenes>
     <resources>

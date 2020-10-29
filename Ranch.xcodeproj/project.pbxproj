@@ -10,6 +10,7 @@
 		52057F08253B2F6C00FC8C7C /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52057F07253B2F6C00FC8C7C /* RootTabBarController.swift */; };
 		52057F14253F2D5000FC8C7C /* crop.json in Resources */ = {isa = PBXBuildFile; fileRef = 52057F13253F2D5000FC8C7C /* crop.json */; };
 		52057F19253F2D8E00FC8C7C /* CorpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52057F18253F2D8E00FC8C7C /* CorpModel.swift */; };
+		52A9F0792549BB1E00022325 /* MineralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9F0782549BB1E00022325 /* MineralViewController.swift */; };
 		52B668A825349FB500C5CA4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B668A725349FB500C5CA4D /* AppDelegate.swift */; };
 		52B668AA25349FB500C5CA4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B668A925349FB500C5CA4D /* SceneDelegate.swift */; };
 		52B668AC25349FB500C5CA4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B668AB25349FB500C5CA4D /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		52057F07253B2F6C00FC8C7C /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		52057F13253F2D5000FC8C7C /* crop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = crop.json; sourceTree = "<group>"; };
 		52057F18253F2D8E00FC8C7C /* CorpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorpModel.swift; sourceTree = "<group>"; };
+		52A9F0782549BB1E00022325 /* MineralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineralViewController.swift; sourceTree = "<group>"; };
 		52B668A425349FB500C5CA4D /* Ranch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ranch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B668A725349FB500C5CA4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B668A925349FB500C5CA4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				52B668B225349FB600C5CA4D /* LaunchScreen.storyboard */,
 				52B668B525349FB600C5CA4D /* Info.plist */,
 				52057F07253B2F6C00FC8C7C /* RootTabBarController.swift */,
+				52A9F0782549BB1E00022325 /* MineralViewController.swift */,
 			);
 			path = Ranch;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				52B668AC25349FB500C5CA4D /* ViewController.swift in Sources */,
 				52B668A825349FB500C5CA4D /* AppDelegate.swift in Sources */,
 				52D8DB7C2539E9300041824D /* RolesModel.swift in Sources */,
+				52A9F0792549BB1E00022325 /* MineralViewController.swift in Sources */,
 				52D8DB94253A95AD0041824D /* NaturalModel.swift in Sources */,
 				C5073549253FD23D00357C35 /* NaturalViewModel.swift in Sources */,
 				52D8DB9F253B1BE20041824D /* Menu.swift in Sources */,
